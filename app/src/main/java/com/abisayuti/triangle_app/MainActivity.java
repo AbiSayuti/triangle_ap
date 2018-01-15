@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                     int aalas = Integer.parseInt(nalas);
 
 
-                    int hasilHitungLuas = aalas * atinggi / 2;
+                    int hasilHitungLuas = ( aalas * atinggi )/ 2;
 
                     txtHasilsegitiga.setText(" Luas segitiga = " + hasilHitungLuas );
                 }
